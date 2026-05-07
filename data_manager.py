@@ -138,7 +138,7 @@ class AnimalCategorizer(Dataset, TorchDataset):
         self.labels = self.dataset.label_indices
         
         if sample_indices is not None:
-            self.sample_indices = sample_indices
+            self.sample_indices = list(sample_indices) 
         else:
             self.sample_indices = list(range(self.dataset.num_samples))
         
