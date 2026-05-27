@@ -11,12 +11,12 @@ cd deepel
 
 Linux/MacOS:
 ```sh
-python3 -m venv venv
+python3.14 -m venv venv
 source venv/bin/activate
 ```
 Windows:
 ```sh
-python -m venv venv
+py -3.14 -m venv venv
 venv\Scripts\activate
 ```
 3. Install the dependencies:
